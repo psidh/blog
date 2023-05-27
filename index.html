@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>My Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- <link rel="stylesheet" href="https://cdn.tailwindcss.com" /> -->
+  <script src="https://cdn.tailwindcss.com">
+</script>
+
+</head>
+
+<body>
+  <header class="bg-black shadow h-20 fixed top-0 left-0 w-full">
+    <div class="m-auto p-2">
+      <div class="flex md:flex-row flex-col justify-between items-center p-4">
+        <div class="logo">
+          <h2 class="text-lg font-semibold text-white">My Blog</h2>
+        </div>
+        <nav class="flex">
+          <ul class="flex">
+            <li><a href="#about" class="p-4 text-white font-semibold hover:text-black">About</a></li>
+            <li><a href="#blog" class="p-4 text-white font-semibold hover:text-black">Blog</a></li>
+            <li><a href="#contact" class="p-4 text-white font-semibold hover:text-black">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="bg-white p-14">
+      <div class="container mx-auto p-8 flex flex-col items-center justify-center">
+        <div class="hero-content text-center md:text-center">
+          <h2 class="font-extrabold text-transparent text-6xl bg-clip-text bg-gradient-to-r from-yellow-600 to-red-500 pt-32 pb-10"> Welcome to My Blog</h2>
+          <p class="text-lg md:text-2xl text-gray-800 mb-4 p-8">Ever Learner | Facts</p>
+          <a href="#blog" class="bg-green-500 hover:bg-black hover:text-white text-white font-bold py-2 px-4 rounded-full inline-block transition p-8">Read Blog</a>
+        </div>
+      </div>
+    </section>
+
+    <hr>
+
+    <section id="about" class="bg-white p-10">
+      <div class="container mx-auto">
+        <div class="text-center">
+          <h2 class="text-4xl font-bold text-gray-900 mb-4">About Me</h2>
+          <div class="text-transparent bg-clip-text font-bold bg-gradient-to-r from-black to-blue-900 ">
+            <p class="text-5xl p-10 text-transparent bg-clip-text bg-green-700">I'm Sidharth</p>
+            <p class="text-2xl p-4 text-transparent bg-clip-text font-thin bg-gradient-to-r from-black to-blue-900 ">An independent reader and a small researcher</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr>
+
+    <section id="blog" class="bg-white p-10">
+      <div class="container m-auto p-4">
+        <div class="flex flex-col md:flex-row items-center justify-between">
+          <div class="about-content text-center mx-auto">
+            <div class="text-2xl md:text-4xl font-bold text-black mb-4">
+                <h2>Blog Posts</h2>
+              </div>
+              <div class="text-transparent bg-clip-text font-bold bg-blue-800 p-2">
+                <ul>
+                  <li class="p-2 text-white bg-gradient-to-r from-red-600 to-pink-600 hover:bg-black hover:text-white font-bold py-2 px-6 rounded-full inline-block transition m-4">
+                    <a href="mahatma.html">Gandhi</a>
+                  </li>
+                  <li class="p-2 text-white bg-gradient-to-r from-yellow-600 to-orange-700 hover:bg-black hover:text-white font-bold py-2 px-6 rounded-full inline-block transition m-4">
+                    <a href="blog-post.html">Blog Post 2</a>
+                  </li>
+                  <li class="p-2 text-white bg-gradient-to-r from-purple-600 to-pink-700 hover:bg-black hover:text-white font-bold py-2 px-6 rounded-full inline-block transition m-4">
+                    <a href="blog-post.html">Blog Post 3</a>
+                  </li>
+                  <li class="p-2 text-white bg-gradient-to-r from-black to-blue-600 hover:bg-black hover:text-white font-bold py-2 px-6 rounded-full inline-block transition m-4">
+                    <a href="blog-post.html">Blog Post 4</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <section id="contact" class="bg-black p-10">
+        <div class="container mx-auto px-4">
+          <div class="flex flex-row md:flex-col items-center justify-between max-w-4xl mx-auto">
+            <div class="about-content text-center md:mx-auto"></div>
+            <div class="text-lg md:text-2xl justify-startmd:text-2xl font-bold text-white">
+              <h2>Sources for Claims</h2>
+            </div>
+            <div class="text-transparent bg-clip-text font-bold bg-gradient-to-r from-lime-600 to-lime-300 p-2 justify-end">
+              <ul class="md:ml-auto">
+                <li class="hover:text-white"><a href="source.html">Source</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+  
+  </html>
+  
